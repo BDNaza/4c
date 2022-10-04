@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.body-container {
+    width: 60%;
+    margin: auto;
+    padding: 5vw 0vw;
+}
+h3 {
+    color: #005fe9 !important;
+    font-weight: bold;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px){
+    .body-container {
+        width: 90%;}
+}
